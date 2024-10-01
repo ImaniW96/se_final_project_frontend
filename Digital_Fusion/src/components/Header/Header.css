@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(75, 5, 75, 0.1);
+  padding: 10px 20px;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  position: fixed;
+  font-family: "Alegreya";
+}
+.header__item_container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin: 15px;
+
+  left: 35%;
+}
+.header__item {
+  list-style: none;
+  margin: 10px;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  color: #000;
+  transition: color 0.2s ease;
+  border: none;
+  background-color: white;
+}
+.header__item:hover {
+  color: rgba(121, 190, 244, 0.7);
+}
