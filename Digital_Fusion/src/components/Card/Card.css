@@ -1,0 +1,36 @@
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px solid rgb(170 169 176 / 40%);
+}
+
+.card__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.card__title {
+  font-size: 20px;
+  color: #000;
+}
+
+.card__description {
+  margin-top: 10px;
+  color: #000;
+}
