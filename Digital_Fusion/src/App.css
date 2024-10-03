@@ -1,4 +1,18 @@
 html,
 body {
+  height: 100%;
   margin: 0;
 }
+/* .page {
+  background-color: #e4e2e2;
+}
+.page__content {
+   max-width: 1360px; 
+  margin: 0 auto;
+  padding: 0;
+} */
+/* .container {
+  display: grid;  
+  place-items: center;  
+  height: 100vh;  
+} */
