@@ -15,9 +15,10 @@
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 300px;
-  height: 400px;
+  height: 580px;
   border-radius: 20px;
   border: 1px solid rgb(170 169 176 / 40%);
+  transition: transform 0.2s ease; /* Smooth transition for scaling */
 }
 
 .card__image {
@@ -33,4 +34,7 @@
 .card__description {
   margin-top: 10px;
   color: #000;
+}
+.card:hover {
+  transform: scale(1.05); /* Scale up the card slightly on hover */
 }

@@ -1,4 +1,5 @@
 import "../Header/Header.css";
+// import { Community } from "../Community/Community";
 export function Header() {
   return (
     <>
@@ -10,7 +11,7 @@ export function Header() {
           <button className="header__item">Software Engineering</button>
           <button className="header__item">Marketing</button>
           <button className="header__item">About Us</button>
-          <button className="header__item">Blog</button>
+          <button className="header__item">Tech News</button>
           <button className="header__item">Donate</button>
         </ul>
       </header>
