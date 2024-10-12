@@ -1,3 +1,7 @@
+// import React, { useState } from 'react';
+// const [articles, setArticles] = useState([]);
+// const [isLoading, setIsLoading] = useState(false);
+// const [error, setError] = useState(null);
 function ArticalCards() {
   return (
     <>
@@ -15,4 +19,14 @@ function ArticalCards() {
     </>
   );
 }
+// export default ArticalCards;
+// const ArticleCard = ({ article }) => (
+//     <div className="article-card">
+//         <img src={article.urlToImage} alt={article.title} />
+//         <h3>{article.title}</h3>
+//         <p>{article.description}</p>
+//         <div>Source: {article.source.name}</div>
+//         <div>Date: {new Date(article.publishedAt).toLocaleDateString()}</div>
+//     </div>
+// );
 export default ArticalCards;

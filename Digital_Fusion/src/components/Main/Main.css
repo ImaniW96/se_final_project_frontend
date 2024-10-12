@@ -1,11 +1,4 @@
 .main__image {
-  /* width: 100%;
-
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  overflow: hidden; */
-  /* position: absolute; */
   left: 0;
   top: 0;
   width: 100%;
@@ -16,29 +9,61 @@
 .main__container {
   position: relative;
   width: 100%;
-  min-height: 440px;
+  height: 75vh;
   color: #fff;
   z-index: 9;
   margin-bottom: 100px;
+  background-image: url("../../assets/HeaderImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main__card_conatiner {
   display: flex;
   margin: 100px;
   justify-content: center;
 }
-.main__header {
-  font-size: 30px;
-  color: #000;
+
+/* .main__header {
+  font-size: 40px;
+  color: #7e1483;
   text-align: center;
   position: absolute;
-  /* align-content: flex-end; */
-  /* bottom: 50%; */
   margin: 0;
-  /* bottom: 17%; */
-  left: 44%;
-  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.8s ease, transform 0.8s ease;
   z-index: 1;
-  transition: opacity 0.5s ease;
+}
+
+.main__header.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.main__header.hidden {
+  transform: translateY(-20px);
+} */
+.main__header {
+  font-size: 40px;
+  color: #7e1483;
+  text-align: center;
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  transform: translate(-50%, -20px); /* Start slightly above */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  z-index: 1;
+}
+
+.main__header.visible {
+  opacity: 1; /* Fully visible when scrolled */
+  transform: translate(-50%, 0); /* Reset transform */
+}
+
+.main__header.hidden {
+  opacity: 0; /* Make hidden */
+  transform: translate(-50%, -60px); /* Move up slightly */
 }
 .main__text {
   font-size: 80px;

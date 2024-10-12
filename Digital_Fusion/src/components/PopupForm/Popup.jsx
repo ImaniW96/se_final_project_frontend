@@ -1,7 +1,7 @@
 import React from "react";
 import "./Popup.css"; // Create a CSS file for styling
 
-const Popup = ({ isOpen, onClose, currentContent }) => {
+const Popup = ({ isOpen, onClose, cardData }) => {
   if (!isOpen) return null;
 
   return (
@@ -10,7 +10,17 @@ const Popup = ({ isOpen, onClose, currentContent }) => {
         <button className="popup-close" onClick={onClose}>
           &times;
         </button>
-        <div className="popup-content">{currentContent}</div>
+        {cardData && (
+          <div className="popup-content">
+            <img
+              src={cardData.image}
+              alt={cardData.title}
+              className="popup__image"
+            />
+            <h1 className="popup__title">{cardData.title}</h1>
+            <p className="popup__description">{cardData.description}</p>
+          </div>
+        )}
       </div>
     </div>
   );
