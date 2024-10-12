@@ -1,0 +1,50 @@
+/* .tech__header {
+  background-image: url("../../assets/technews.png");
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tech__header_text {
+  font-size: 50px;
+  color: #fff;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 100px;
+  text-align: center;
+  top: 30%;
+} */
+.tech__header {
+  position: relative;
+  background-image: url("../../assets/technews.png");
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tech__header_text {
+  color: white;
+  z-index: 2;
+  margin-bottom: 40px; /* Adjust this for spacing */
+}
+
+.tech__searchbar {
+  position: absolute;
+  z-index: 2;
+  top: 70%;
+}
+
+.tech__searchbar_input {
+  padding-left: 30px;
+  width: 608px;
+  height: 64px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}

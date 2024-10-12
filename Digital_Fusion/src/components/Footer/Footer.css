@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  align-items: center;
+  border-top: 2px solid rgba(75, 5, 75, 0.1); /* Use top border for separation */
+  width: 100%;
+  /* background-color: rgb(14, 44, 62); */
+  background-color: #000;
+  box-sizing: border-box;
+  font-family: "Alegreya";
+  padding: 15px 0; /* Add some padding */
+}
+
+.footer__item_container {
+  display: flex;
+  justify-content: center; /* Center items */
+  flex-direction: row;
+}
+
+.footer__item {
+  list-style: none;
+  margin: 10px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: #fff;
+  transition: color 0.2s ease;
+  border: none;
+  /* background-color: rgb(14, 44, 62); */
+  background-color: #000;
+}
+.footer__item:hover {
+  color: rgb(111, 207, 255);
+}
