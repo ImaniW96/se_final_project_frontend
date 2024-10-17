@@ -1,0 +1,40 @@
+.article__cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.article__card {
+  width: 400px;
+  margin: 10px;
+  color: #000;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.article__image {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.article__title {
+  margin-left: 20px;
+}
+.article__paragraph {
+  margin: 20px;
+}
+.article__link {
+  margin: 20px;
+}
+.article__searchResults {
+  display: flex;
+  color: aqua;
+  text-align: center;
+  padding-right: 50px;
+  justify-content: center;
+}
