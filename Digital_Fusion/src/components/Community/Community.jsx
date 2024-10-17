@@ -9,7 +9,7 @@
 //   );
 // }
 // export default Community;
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom";
 import "../Community/community.css";
 
 function Community() {

@@ -18,12 +18,22 @@
   width: 500px;
   height: 75%;
 }
-/* .popup__image {
+.popup__image {
+  width: 70%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 .popup__title {
+  color: #000;
+  margin: 20px;
 }
 .popup__description {
-} */
+  color: #000;
+  margin: 20px;
+}
 .popup-close {
   background: none;
   border: none;
