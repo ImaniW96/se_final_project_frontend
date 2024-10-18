@@ -1,7 +1,7 @@
 # se_final_project_frontend
 
 Digital Fusion
-Welcome to Digital Fusion, a dynamic online platform designed for high school students seeking real-world industry experience in software engineering, marketing, and UX design. Our mission is to connect teens with industry professionals, provide mentorship opportunities, and foster collaboration on meaningful projects.
+Welcome to Digital Fusion, a dynamic online platform designed to build the youth this platform is currently designed for high school students seeking real-world industry experience in software engineering, marketing, and UX design. Our mission is to connect teens with industry professionals, provide mentorship opportunities, and foster collaboration on meaningful projects to make a differnce.
 
 Table of Contents
 About Digital Fusion
@@ -12,7 +12,7 @@ Technologies Used
 Contributing
 License
 About Digital Fusion
-Digital Fusion is dedicated to empowering high school students by providing access to resources and mentorship that can help them thrive in their chosen fields. Whether you're interested in software engineering, marketing, or UX design, our platform is designed to facilitate collaboration and learning.
+Digital Fusion is dedicated to empowering high school students by providing access to resources and mentorship that can help them thrive in their chosen fields. Whether you're interested in software engineering, marketing, or UX design, our platform is designed to facilitate collaboration and learning to help the youth unleash their creativity.
 
 Features
 Project Collaboration
