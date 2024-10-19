@@ -156,9 +156,9 @@ export function Header() {
         ☰ {/* Hamburger icon */}
       </button>
       {isModalOpen && (
-        <div className="modal">
-          <div className="modal__content">
-            <button className="modal__close" onClick={closeModal}>
+        <div className="header__dropdown_modal">
+          <div className="header__modal_content">
+            <button className="header__modal_close" onClick={closeModal}>
               &times; {/* Close icon */}
             </button>
             <button
