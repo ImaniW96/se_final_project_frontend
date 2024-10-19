@@ -34,6 +34,7 @@
 .card__description {
   margin-top: 10px;
   color: #000;
+  font-weight: 500;
 }
 .card:hover {
   transform: scale(1.05); /* Scale up effect */
