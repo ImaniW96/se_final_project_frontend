@@ -149,69 +149,71 @@ export function Header() {
 
   return (
     <header className="header">
-      <button className="header__logo" onClick={() => navigate("/")}>
-        Digital Fusion
-      </button>
-      <button className="header__hamburger" onClick={toggleModal}>
-        ☰ {/* Hamburger icon */}
-      </button>
-      {isModalOpen && (
-        <div className="header__dropdown_modal">
-          <div className="header__modal_content">
-            <button className="header__modal_close" onClick={closeModal}>
-              &times; {/* Close icon */}
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/Mentor")}
-            >
-              Become a Mentor
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/Community")}
-            >
-              Community
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/UxDesign")}
-            >
-              Ux Design
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/SoftwareEngineer")}
-            >
-              Software Engineering
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/Marketing")}
-            >
-              Marketing
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/Aboutus")}
-            >
-              About Us
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/TechNews")}
-            >
-              News
-            </button>
-            <button
-              className="header__item"
-              onClick={() => navigate("/Donate")}
-            >
-              Donate
-            </button>
+      <div className="header__content">
+        <button className="header__logo" onClick={() => navigate("/")}>
+          Digital Fusion
+        </button>
+        <button className="header__hamburger" onClick={toggleModal}>
+          ☰
+        </button>
+        {isModalOpen && (
+          <div className="header__dropdown_modal">
+            <div className="header__modal_content">
+              <button className="header__modal_close" onClick={closeModal}>
+                &times; {/* Close icon */}
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/Mentor")}
+              >
+                Become a Mentor
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/Community")}
+              >
+                Community
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/UxDesign")}
+              >
+                Ux Design
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/SoftwareEngineer")}
+              >
+                Software Engineering
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/Marketing")}
+              >
+                Marketing
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/Aboutus")}
+              >
+                About Us
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/TechNews")}
+              >
+                News
+              </button>
+              <button
+                className="header__item"
+                onClick={() => navigate("/Donate")}
+              >
+                Donate
+              </button>
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </header>
   );
 }

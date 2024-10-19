@@ -98,16 +98,21 @@
   gap: 20px;
   font-weight: 500;
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .popup {
-    width: 95%; /* Allow more width on smaller screens */
+    max-width: 400px;
   }
 
   .popup__title {
-    font-size: 20px; /* Slightly smaller title font */
+    font-size: 20px;
   }
 
   .popup__description {
-    font-size: 14px; /* Slightly smaller description font */
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .popup {
+    max-width: 300px;
   }
 }

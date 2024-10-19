@@ -2,7 +2,7 @@
   position: relative;
   background-image: url("../../assets/technews.png");
   background-size: cover;
-  width: 100%;
+  max-width: 100%;
   height: 75vh;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@
   background-color: #000;
   color: #fff;
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .tech__header_text {
     font-size: 30px;
   }
