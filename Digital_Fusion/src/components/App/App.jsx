@@ -1,6 +1,5 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-// import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import Community from "../Community/Community";
 import Technews from "../Technews/Technews";
 import Mentor from "../Mentor/Mentor";

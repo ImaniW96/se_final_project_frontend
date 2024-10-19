@@ -61,20 +61,106 @@
 //     </>
 //   );
 // }
+
+// import "../Header/Header.css";
+// import { useNavigate } from "react-router-dom";
+
+// export function Header() {
+//   const navigate = useNavigate();
+
+//   return (
+//     <>
+//       <header className="header">
+//         <ul className="header__item_container">
+//           <button className="header__logo" onClick={() => navigate("/")}>
+//             Digital Fusion
+//           </button>
+//           <div className="header__menu">
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/Mentor")}
+//             >
+//               Become a Mentor
+//             </button>
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/Community")}
+//             >
+//               Community
+//             </button>
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/UxDesign")}
+//             >
+//               Ux Design
+//             </button>
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/SoftwareEngineer")}
+//             >
+//               Software Engineering
+//             </button>
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/Marketing")}
+//             >
+//               Marketing
+//             </button>
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/Aboutus")}
+//             >
+//               About Us
+//             </button>
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/TechNews")}
+//             >
+//               News
+//             </button>
+//             <button
+//               className="header__item"
+//               onClick={() => navigate("/Donate")}
+//             >
+//               Donate
+//             </button>
+//           </div>
+//         </ul>
+//       </header>
+//     </>
+//   );
+// }
+
 import "../Header/Header.css";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 export function Header() {
   const navigate = useNavigate();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen((prev) => !prev);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
-    <>
-      <header className="header">
-        <ul className="header__item_container">
-          <button className="header__logo" onClick={() => navigate("/")}>
-            Digital Fusion
-          </button>
-          <div className="header__menu">
+    <header className="header">
+      <button className="header__logo" onClick={() => navigate("/")}>
+        Digital Fusion
+      </button>
+      <button className="header__hamburger" onClick={toggleModal}>
+        ☰ {/* Hamburger icon */}
+      </button>
+      {isModalOpen && (
+        <div className="modal">
+          <div className="modal__content">
+            <button className="modal__close" onClick={closeModal}>
+              &times; {/* Close icon */}
+            </button>
             <button
               className="header__item"
               onClick={() => navigate("/Mentor")}
@@ -124,8 +210,8 @@ export function Header() {
               Donate
             </button>
           </div>
-        </ul>
-      </header>
-    </>
+        </div>
+      )}
+    </header>
   );
 }
