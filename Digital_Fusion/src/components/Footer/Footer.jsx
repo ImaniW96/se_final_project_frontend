@@ -9,8 +9,10 @@ export function Footer() {
           <button className="footer__item">Tik Tok</button>
           <button className="footer__item">Terms of Service</button>
           <button className="footer__item">Contact Us</button>
-          <p>&copy; 2024 Digital Fusion All rights reserved.</p>
         </ul>
+        <p color="footer__copyright">
+          &copy; 2024 Digital Fusion All rights reserved.
+        </p>
       </footer>
     </>
   );
