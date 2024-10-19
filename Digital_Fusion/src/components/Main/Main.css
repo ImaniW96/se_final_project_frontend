@@ -52,8 +52,7 @@
   color: aqua;
   position: absolute;
   z-index: 1;
-  top: 35%;
-  left: 20%;
+
   text-align: center;
   display: flex;
   justify-content: center;
