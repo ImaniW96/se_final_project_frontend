@@ -25,12 +25,10 @@ export function Main() {
     <>
       <div className="main">
         <div className="main__container">
-          <div className="main__video-container">
-            <video className="main__video" autoPlay loop muted playsInline>
-              <source src={headerVideo} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+          <video className="main__video" autoPlay loop muted playsInline>
+            <source src={headerVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <h1 className="main__text">Bring your Dreams to life</h1>
         </div>
         <h2 className="main__paragraph">

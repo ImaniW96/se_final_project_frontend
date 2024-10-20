@@ -71,13 +71,6 @@
   font-family: "Roboto";
 }
 
-.main__video-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
 .main__video {
   position: absolute;
   top: 50%;
