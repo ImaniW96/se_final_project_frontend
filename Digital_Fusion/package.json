@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ImaniW96.github.io/Digital_Fusion",
+  "homepage": "https://imaniw96.github.io/se_final_project_frontend/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
