@@ -29,6 +29,9 @@ export function Header() {
               <button className="header__modal_close" onClick={closeModal}>
                 &times; {/* Close icon */}
               </button>
+              <button className="header__item" onClick={() => navigate("/")}>
+                Home
+              </button>
               <button
                 className="header__item"
                 onClick={() => navigate("/Mentor")}
