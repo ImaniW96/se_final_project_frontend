@@ -98,10 +98,14 @@
   .main__text {
     font-size: 40px;
   }
+  .main__header {
+    white-space: nowrap;
+  }
   .main__video {
     max-width: 100%;
     height: auto;
     max-height: 100%;
+    margin: 40px;
   }
 }
 @media screen and (max-width: 500px) {
