@@ -84,7 +84,7 @@
   z-index: -1;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .main__paragraph {
     font-size: 30px;
     margin: 10px;
@@ -94,7 +94,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .main__text {
     font-size: 40px;
   }
@@ -102,5 +102,12 @@
     max-width: 100%;
     height: auto;
     max-height: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main__paragraph {
+    font-size: 25px;
+    margin: 5px;
+    margin: 8px 10px 5px;
   }
 }
