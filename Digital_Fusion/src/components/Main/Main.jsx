@@ -33,7 +33,7 @@ export function Main() {
         </div>
         <h2 className="main__paragraph">
           Collaborate with peers on real world project and get real world
-          experince from industry professionals
+          experience from industry professionals
         </h2>
         <h3 className={`main__header ${isScrolled ? "visible" : "hidden"}`}>
           How it works
