@@ -18,7 +18,8 @@
   height: 580px;
   border-radius: 20px;
   border: 1px solid rgb(170 169 176 / 40%);
-  transition: transform 0.2s ease; /* Smooth transition for scaling */
+  transition: transform 0.2s ease;
+  box-sizing: border-box;
 }
 
 .card__image {
