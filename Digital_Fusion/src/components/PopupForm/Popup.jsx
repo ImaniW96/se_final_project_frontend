@@ -18,7 +18,7 @@ const Popup = ({ isOpen, onClose, cardData }) => {
               className="popup__image"
             />
             <h1 className="popup__title">{cardData.title}</h1>
-            <p className="popup__description">{cardData.description}</p>
+            {cardData.description}
           </div>
         )}
       </div>

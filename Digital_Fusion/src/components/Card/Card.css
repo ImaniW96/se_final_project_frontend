@@ -2,8 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* padding: 20px; */
-  /* margin: 20px; */
   gap: 100px;
 }
 
@@ -20,6 +18,7 @@
   border: 1px solid rgb(170 169 176 / 40%);
   transition: transform 0.2s ease;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .card__image {
@@ -30,17 +29,18 @@
 .card__title {
   font-size: 20px;
   color: #000;
+  margin-bottom: 0;
 }
 
 .card__description {
-  margin-top: 10px;
+  margin-top: 0;
   color: #000;
   font-weight: 500;
 }
 .card:hover {
-  transform: scale(1.05); /* Scale up effect */
-  background-color: aqua; /* Change background color on hover */
-  cursor: pointer; /* Change cursor */
+  transform: scale(1.05);
+  background-color: aqua;
+  cursor: pointer;
 }
 @media (max-width: 800px) {
   .card__container {

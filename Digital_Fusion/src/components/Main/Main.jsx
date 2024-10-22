@@ -1,8 +1,9 @@
 import "../Main/Main.css";
 import React from "react";
-import { Card } from "../Card/Card";
+import { Card } from "../Card/Card.jsx";
 import { useEffect, useState } from "react";
 import headerVideo from "../../assets/HeaderVideo.mp4";
+import { CardContainer } from "../CardContainer/CardContainer.jsx";
 export function Main() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -39,7 +40,7 @@ export function Main() {
           How it works
         </h3>
         <section className="main__card_conatiner">
-          <Card />
+          <CardContainer />
         </section>
       </div>
     </>
