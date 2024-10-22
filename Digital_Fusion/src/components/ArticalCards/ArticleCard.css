@@ -50,3 +50,14 @@
   justify-content: center;
   padding: 20px;
 }
+@media screen and (max-width: 800px) {
+  .article__searchResults {
+    color: #14938e;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article__searchResults {
+    color: #14938e;
+  }
+}
