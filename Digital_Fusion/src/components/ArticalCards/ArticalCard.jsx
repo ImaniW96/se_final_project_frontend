@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { API_KEY, BASE_URL } from "../../utils/NewsApi";
+// import React, { useEffect, useState } from "react";
+// import { API_KEY, BASE_URL } from "../../utils/NewsApi";
 import "../ArticalCards/ArticleCard.css";
 
-const ArticleCards = ({ query, loading, error, articles }) => {
+const ArticleCards = ({ loading, error, articles }) => {
   const handleSearch = (e) => {
     e.preventDefault();
     setLoading(true);

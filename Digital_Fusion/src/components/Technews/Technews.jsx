@@ -59,7 +59,6 @@ function Technews() {
             className="tech__searchbar_button"
             type="submit"
             onClick={() => {
-              debugger;
               fetchNews();
             }}
           >
