@@ -73,3 +73,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 Thank you for being part of the Digital Fusion community! Together, we can help high school students gain invaluable experience and build successful futures in technology, marketing, and design.
 Deployed site link https://imaniw96.github.io/se_final_project_frontend/
+
+Pages to grade : Tech news and first home page
