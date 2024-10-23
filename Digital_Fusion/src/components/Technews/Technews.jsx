@@ -33,10 +33,11 @@ function Technews() {
       })
       .then((data) => {
         setArticles(data.articles);
-        setLoading(false);
       })
       .catch((err) => {
         setError(err);
+      })
+      .finally(() => {
         setLoading(false);
       });
   };
@@ -46,15 +47,17 @@ function Technews() {
       <header className="tech__header">
         <h1 className="tech__header_text">Find The Latest News</h1>
         <div className="tech__searchbar">
-          <input
-            className="tech__searchbar_input"
-            id="techsearch-form"
-            type="input"
-            placeholder="Search for the latest Tech News"
-            name="keyword"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
+          <form>
+            <input
+              className="tech__searchbar_input"
+              id="techsearch-form"
+              type="input"
+              placeholder="Search for the latest Tech News"
+              name="keyword"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </form>
           <button
             className="tech__searchbar_button"
             type="submit"

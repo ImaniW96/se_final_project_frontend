@@ -68,7 +68,7 @@
   margin-top: 10px;
   text-align: center;
   font-size: 40px;
-  font-family: "Roboto";
+  font-family: "Roboto" Courier, monospace;
 }
 
 .main__video {
