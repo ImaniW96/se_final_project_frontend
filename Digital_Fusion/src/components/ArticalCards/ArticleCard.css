@@ -1,0 +1,63 @@
+.article__cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+.article__card {
+  width: 400px;
+  margin: 10px;
+  color: #000;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article__image {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.article__title {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+.article__paragraph {
+  margin: 20px;
+}
+
+.article__link {
+  margin: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article__link:hover {
+  text-decoration: underline;
+}
+
+.article__searchResults {
+  display: flex;
+  color: aqua;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  .article__searchResults {
+    color: #14938e;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article__searchResults {
+    color: #14938e;
+  }
+}
