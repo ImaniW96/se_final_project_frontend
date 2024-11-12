@@ -1,0 +1,17 @@
+.about__paragraph {
+  color: #000;
+  font-size: 20px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.about__paragraph_container {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__paragraph_heading {
+  text-align: center;
+}

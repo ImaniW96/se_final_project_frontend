@@ -64,7 +64,7 @@ export function Header() {
               </button>
               <button
                 className="header__item"
-                onClick={() => navigate("/Aboutus")}
+                onClick={() => navigate("/AboutUs")}
               >
                 About Us
               </button>
